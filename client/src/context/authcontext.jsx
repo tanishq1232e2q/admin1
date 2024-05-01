@@ -23,7 +23,7 @@ const authtoken=`Bearer ${token}`
 
     const userauthentication=async()=>{
         try {
-            const response=await fetch("http://localhost:8000/api/auth/user",{
+            const response=await fetch(`${window.location.origin}/api/auth/user`,{
                 method:"GET",
                 headers:{
                     authorization:authtoken

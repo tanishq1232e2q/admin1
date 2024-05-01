@@ -8,7 +8,7 @@ export default function Admincontact() {
   const [allconatcts, setallcontacts] = useState([])
 
   const gellallcontacts=async()=>{
-    const response=await fetch("http://localhost:8000/api/admin/contacts",{
+    const response=await fetch(`${window.location.origin}/api/admin/contacts`,{
       method:"GET",
       headers:{
         authorization:authtoken

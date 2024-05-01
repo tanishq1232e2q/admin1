@@ -8,7 +8,7 @@ export default function Service() {
 
 
   const servicedata=async()=>{
-    const response= await fetch("http://localhost:8000/api/auth/services/",{
+    const response= await fetch(`${window.location.origin}/api/auth/services/`,{
         method:"GET",
         headers:{
 

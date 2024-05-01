@@ -16,7 +16,7 @@ export default function Adminupdate() {
     const getuserforupdate=async()=>{
       try {
         
-        const response=await fetch(`http://localhost:8000/api/admin/users/${id}`,{
+        const response=await fetch(`${window.location.origin}/api/admin/users/${id}`,{
             method:"GET",
             headers:{
                 authorization:authtoken
@@ -42,7 +42,7 @@ export default function Adminupdate() {
       try {
         
         e.preventDefault()
-        const response=await fetch(`http://localhost:8000/api/admin/users/update/${id}`,{
+        const response=await fetch(`${window.location.origin}/api/admin/users/update/${id}`,{
               method:"PUT",
               headers:{
                 "Content-Type":"application/json",

@@ -17,7 +17,7 @@ export default function Register() {
     console.log(contact);
 
     try {
-      const response= await fetch("http://localhost:8000/api/auth/contact/",{
+      const response= await fetch(`${window.location.origin}/api/auth/contact/`,{
         method:"POST",
         headers:{
 

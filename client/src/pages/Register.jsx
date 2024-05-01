@@ -21,7 +21,7 @@ export default function Register() {
       e.preventDefault()
       console.log(user);
       
-      const response = await fetch(`http://localhost:8000/api/auth/register`, {
+      const response = await fetch(`${window.location.origin}/api/auth/register`, {
 
         method: "POST",
         headers: {
