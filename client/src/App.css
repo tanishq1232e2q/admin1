@@ -1,0 +1,76 @@
+.register-form{
+  padding: 5rem;
+}
+
+.register-form textarea{
+  
+}
+
+
+.register-form input,textarea{
+  width: 50%;
+  border: 2px solid black;
+  background-color: lightyellow;
+}
+
+form .register-form button{
+  border: 2px solid black;
+  padding: 1.1rem;
+  background-color: lightgreen;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem;
+}
+.about img{
+  width: 100%;
+}
+
+.hero  img{
+  width: 60%;
+  margin-left: 4rem;
+}
+
+.container ul li{
+  list-style: none;
+  margin: 0rem 1.4rem;
+  text-decoration: none;
+  color: goldenrod;
+}
+
+.tables {
+  /* margin: 3rem 2rem; */
+  padding: 5rem;
+  width: 70%;
+  color:white;
+  background-color: black;
+  border-radius: 12px;
+}
+.tables tr td {
+  /* margin: 2rem 3rem; */
+  padding: 2rem;
+  margin-left: 5rem;
+  border-radius: 12px;
+  color: aqua;
+  border: 2px solid aqua;
+}
+.master{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+
+
